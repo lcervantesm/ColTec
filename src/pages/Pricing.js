@@ -6,7 +6,7 @@ import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js"
 import Footer from "components/footers/MiniCenteredFooter";
 import FAQ from "components/faqs/SingleCol.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
-import ContactUs from "./ContactUs";
+import ContactUs from "./ContactUsWOHeader.js";
 
 export default () => {
   return (
