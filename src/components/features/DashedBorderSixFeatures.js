@@ -84,15 +84,18 @@ export default () => {
     },
     { imageSrc: ReliableIconImage,
       title: "Educación Continua",
-      href: "/educacion-continua"
+      href: "/educacion-continua",
+      description: "Ofertamos 5 diplomados para especializarte en las tecnologías emergentes."
     },
     { imageSrc: SupportIconImage,
       title: "Cursos Ingreso IPN/UNAM",
-      href: "/cursos-ingreso"
+      href: "/cursos-ingreso",
+      description: "Destaca en el examen de selección e ingresa a la universidad de tus sueños."
     },
     { imageSrc: SupportIconImage,
       title: "Curso Ingreso COMIPEMS",
-      href: "/curso-comipems"
+      href: "/curso-comipems",
+      description: "¡Asegura tu primera opción!"
     }
   ];
 
