@@ -15,6 +15,7 @@ import ContactUsForm from "components/forms/TwoColContactUsWithIllustrationFullF
 import Footer from "components/footers/MiniCenteredFooter.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 
+
 export default () => (
   <AnimationRevealPage>
     <Hero />
@@ -34,7 +35,7 @@ export default () => (
           imageSrc:
             "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
           profileImageSrc:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+            "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
           quote:
             "Hoy en día los jóvenes tienen el reto de adquirir y evidenciar el desarrollo de competencias humanas, de liderazgo y de emprendimiento; uso de una segunda lengua y el desarrollo de las habilidades STEM (Ciencia, Tecnología, Ingeniería y Matemáticas).",
           customerName: "Wlester Santiago",
@@ -44,7 +45,7 @@ export default () => (
           imageSrc:
             "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
           profileImageSrc:
-            "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
+          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
           quote:
           "La nueva normalidad demanda programas a distancia de calidad. Por ello, contamos con el respaldo de la UNAM para impartir el B@UNAM 100% a distancia.",
           customerName: "Perla Bonilla",
