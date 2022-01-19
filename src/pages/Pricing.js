@@ -6,7 +6,7 @@ import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js"
 import Footer from "components/footers/MiniCenteredFooter";
 import FAQ from "components/faqs/SingleCol.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
-
+import ContactUs from "./ContactUs";
 
 export default () => {
   return (
@@ -27,6 +27,7 @@ export default () => {
           ¿Tienes <span className="orange-text" tw="text-primary-500">Dudas </span>?
         </>
       }/>
+      <ContactUs />
       <Footer/>
     </AnimationRevealPage>
   );
