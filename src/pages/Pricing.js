@@ -1,4 +1,5 @@
 import React from "react";
+import tw from "twin.macro";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Header from "components/headers/light.js";
 import Pricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
@@ -7,12 +8,21 @@ import Footer from "components/footers/MiniCenteredFooter";
 import FAQ from "components/faqs/SingleCol.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import ContactUs from "./ContactUsWOHeader.js";
+import TabGrid from "components/cards/TabCardGrid.js";
 
 export default () => {
+  const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
   return (
     <AnimationRevealPage>
       <Header />
       <Pricing />
+      <TabGrid
+        heading={
+          <>
+            Nuestra <HighlightedText>oferta.</HighlightedText>
+          </>
+        }
+      />
       <Testimonial
         heading="Nuestros estudiantes"
       />

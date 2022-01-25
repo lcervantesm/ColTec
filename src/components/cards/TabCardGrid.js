@@ -6,9 +6,15 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import { ReactComponent as StarIcon } from "images/star-icon.svg";
+//import { ReactComponent as StarIcon } from "images/star-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-7.svg";
+import bUNAM from "images/logo_bunam.png";
+import logoPoli from "images/logo_politecnico.jpeg";
+import logoSep from "images/SEP.jpeg";
+import logoCCM from "images/logotec.png";
+import proximamente from "images/proximamente.jpeg";
+
 
 const HeaderRow = tw.div`flex justify-between items-center flex-col xl:flex-row`;
 const Header = tw(SectionHeading)``;
@@ -20,7 +26,7 @@ const TabControl = styled.div`
     ${tw`bg-gray-300 text-gray-700`}
   }
   ${props => props.active && tw`bg-primary-500! text-gray-100!`}
-  }
+
 `;
 
 const TabContent = tw(motion.div)`mt-6 flex flex-wrap sm:-mr-10 md:-mr-6 lg:-mr-12`;
@@ -30,13 +36,13 @@ const CardImageContainer = styled.div`
   ${props => css`background-image: url("${props.imageSrc}");`}
   ${tw`h-56 xl:h-64 bg-center bg-cover relative rounded-t`}
 `;
-const CardRatingContainer = tw.div`leading-none absolute inline-flex bg-gray-100 bottom-0 left-0 ml-4 mb-4 rounded-full px-5 py-2 items-end`;
+/*const CardRatingContainer = tw.div`leading-none absolute inline-flex bg-gray-100 bottom-0 left-0 ml-4 mb-4 rounded-full px-5 py-2 items-end`;
 const CardRating = styled.div`
   ${tw`mr-1 text-sm font-bold flex items-end`}
   svg {
     ${tw`w-4 h-4 fill-current text-orange-400 mr-1`}
   }
-`;
+`;*/
 
 const CardHoverOverlay = styled(motion.div)`
   background-color: rgba(255, 255, 255, 0.5);
@@ -44,7 +50,7 @@ const CardHoverOverlay = styled(motion.div)`
 `;
 const CardButton = tw(PrimaryButtonBase)`text-sm`;
 
-const CardReview = tw.div`font-medium text-xs text-gray-600`;
+//const CardReview = tw.div`font-medium text-xs text-gray-600`;
 
 const CardText = tw.div`p-4 text-gray-900`;
 const CardTitle = tw.h5`text-lg font-semibold group-hover:text-primary-500`;
@@ -59,93 +65,154 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 `;
 
 export default ({
-  heading = "Checkout the Menu",
+  heading = "Oferta educativa",
   tabs = {
-    Starters: [
+    Bachilleratos: [
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Veg Mixer",
-        content: "Tomato Salad & Carrot",
-        price: "$5.99",
-        rating: "5.0",
-        reviews: "87",
-        url: "#"
+          bUNAM,
+        title: "B@UNAM",
+        content: "Bachillerato en línea UNAM",
+        price: "Desde $3,000.00 MXN/mes",
+        url: "/b@unam"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Macaroni",
-        content: "Cheese Pizza",
-        price: "$2.99",
-        rating: "4.8",
-        reviews: "32",
-        url: "#"
+          logoPoli,
+        title: "Bachillerato IPN",
+        content: "Bachillerato presencial IPN - Plantel Zaragoza",
+        price: "Desde $2,000.00 MXN/mes",
+        url: "/bachillerato-ipn"
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327??ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Nelli",
-        content: "Hamburger & Fries",
-        price: "$7.99",
-        rating: "4.9",
-        reviews: "89",
-        url: "#"
-      },
-      {
-        imageSrc:
-          "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Jalapeno Poppers",
-        content: "Crispy Soyabeans",
-        price: "$8.99",
-        rating: "4.6",
-        reviews: "12",
-        url: "#"
-      },
-      {
-        imageSrc:
-          "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Cajun Chicken",
-        content: "Roasted Chicken & Egg",
-        price: "$7.99",
-        rating: "4.2",
-        reviews: "19",
-        url: "#"
-      },
-      {
-        imageSrc:
-          "https://images.unsplash.com/photo-1550461716-dbf266b2a8a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Chillie Cake",
-        content: "Deepfried Chicken",
-        price: "$2.99",
-        rating: "5.0",
-        reviews: "61",
-        url: "#"
-      },
-      {
-        imageSrc:
-          "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Guacamole Mex",
-        content: "Mexican Chilli",
-        price: "$3.99",
-        rating: "4.2",
-        reviews: "95",
-        url: "#"
-      },
-      {
-        imageSrc:
-          "https://images.unsplash.com/photo-1565310022184-f23a884f29da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        title: "Carnet Nachos",
-        content: "Chilli Crispy Nachos",
-        price: "$3.99",
-        rating: "3.9",
-        reviews: "26",
-        url: "#"
+          logoSep,
+        title: "Bachillerato SEP",
+        content: "Bachillerato presencial SEP - Plantel Coapa",
+        price: "Desde $2,000.00 MXN/mes",
+        url: "/bachillerato-sep"
       }
     ],
-    Main: getRandomCards(),
-    Soup: getRandomCards(),
-    Desserts: getRandomCards()
+    Licenciaturas: [
+      {
+        imageSrc:
+          logoPoli,
+        title: "Ciencias de la Informática",
+        content: "Licenciatura con aval del IPN - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/ciencias-de-la-informatica-ipn"
+      },
+      {
+        imageSrc:
+          logoPoli,
+        title: "Contaduría Pública",
+        content: "Licenciatura con aval del IPN - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/contaduria-ipn"
+      },
+      {
+        imageSrc:
+          logoPoli,
+        title: "Administración Industrial",
+        content: "Licenciatura con aval del IPN - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/admin-industrial-ipn"
+      },
+      {
+        imageSrc:
+          logoSep,
+        title: "Informática",
+        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/informatica-sep"
+      },
+      {
+        imageSrc:
+          logoSep,
+        title: "Contaduría Pública",
+        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/contaduria-sep"
+      },
+      {
+        imageSrc:
+          logoSep,
+        title: "Pedagogía",
+        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/pedagogia-sep"
+      },
+      {
+        imageSrc:
+          logoSep,
+        title: "Mercadotecnia",
+        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/mercadotecnia-sep"
+      },
+      {
+        imageSrc:
+          logoSep,
+        title: "Derecho",
+        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/derecho-sep"
+      },
+    ],
+    Maestrías: [
+      {
+        imageSrc:
+          logoSep,
+        title: "Administración de Hospitales",
+        content: "Maestría con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $2,400.00 MXN/mes",
+        url: "/maestria-admin-hospitales"
+      },
+      {
+        imageSrc:
+          logoSep,
+        title: "Ciencias de la Educación",
+        content: "Maestría con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $2,400.00 MXN/mes",
+        url: "/maestria-educacion"
+      },
+    ],
+    Diplomados: [
+      {
+        imageSrc:
+          proximamente,
+        title: "PRÓXIMAMENTE",
+        content: "Diplomados para la formación a lo largo de la vida",
+        price: "Desde $3,000.00 MXN",
+        url: "/diplomados"
+      }
+    ],
+    Cursos: [
+      {
+        imageSrc:
+          logoCCM,
+        title: "Curso Ingreso UNAM",
+        content: "Bachillerato en línea UNAM",
+        price: "Desde $8,000.00 MXN",
+        url: "/ccm-ingreso-unam"
+      },
+      {
+        imageSrc:
+          logoCCM,
+        title: "Curso Ingreso IPN",
+        content: "Bachillerato presencial IPN",
+        price: "Desde $8,000.00 MXN",
+        url: "/ccm-ingreso-ipn"
+      },
+      {
+        imageSrc:
+          logoCCM,
+        title: "Curso Ingreso COMIPEMS",
+        content: "Bachillerato presencial IPN",
+        price: "Desde $8,000.00 MXN",
+        url: "/ccm-ingreso-comipems"
+      }
+    ]
   }
 }) => {
   /*
@@ -193,13 +260,6 @@ export default ({
               <CardContainer key={index}>
                 <Card className="group" href={card.url} initial="rest" whileHover="hover" animate="rest">
                   <CardImageContainer imageSrc={card.imageSrc}>
-                    <CardRatingContainer>
-                      <CardRating>
-                        <StarIcon />
-                        {card.rating}
-                      </CardRating>
-                      <CardReview>({card.reviews})</CardReview>
-                    </CardRatingContainer>
                     <CardHoverOverlay
                       variants={{
                         hover: {
@@ -213,7 +273,7 @@ export default ({
                       }}
                       transition={{ duration: 0.3 }}
                     >
-                      <CardButton>Buy Now</CardButton>
+                      <CardButton>Inscríbete</CardButton>
                     </CardHoverOverlay>
                   </CardImageContainer>
                   <CardText>
@@ -233,7 +293,7 @@ export default ({
   );
 };
 
-/* This function is only there for demo purposes. It populates placeholder cards */
+/* This function is only there for demo purposes. It populates placeholder cards 
 const getRandomCards = () => {
   const cards = [
     {
@@ -320,4 +380,4 @@ const getRandomCards = () => {
 
   // Shuffle array
   return cards.sort(() => Math.random() - 0.5);
-};
+};*/
