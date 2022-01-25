@@ -101,6 +101,7 @@ import ContaduriaSep from "demos/ContaduriaSep";
 import Mercadotecnia from "demos/Mercadotecnia";
 import Derecho from "demos/Derecho";
 import Pedagogia from "demos/Pedagogia";
+import Reglamento from "demos/Reglamentos";
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 /* Inner Pages */
@@ -185,6 +186,9 @@ export default function App() {
         </Route>
         <Route path="/mercadotecnia-sep">
           <Mercadotecnia />
+        </Route>
+        <Route path="/reglamentos">
+          <Reglamento />
         </Route>
         <Route path="/">
           <AgencyLandingPage />

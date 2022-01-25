@@ -166,7 +166,7 @@ export default ({
         title: "Administración de Hospitales",
         content: "Maestría con aval de la SEP - Plantel Zaragoza",
         price: "Desde $2,400.00 MXN/mes",
-        url: "/maestria-admin-hospitales"
+        url: "/admisiones"
       },
       {
         imageSrc:
@@ -174,7 +174,7 @@ export default ({
         title: "Ciencias de la Educación",
         content: "Maestría con aval de la SEP - Plantel Zaragoza",
         price: "Desde $2,400.00 MXN/mes",
-        url: "/maestria-educacion"
+        url: "/admisiones"
       },
     ],
     Diplomados: [
@@ -184,7 +184,7 @@ export default ({
         title: "PRÓXIMAMENTE",
         content: "Diplomados para la formación a lo largo de la vida",
         price: "Desde $3,000.00 MXN",
-        url: "/diplomados"
+        url: "/admisiones"
       }
     ],
     Cursos: [
@@ -194,7 +194,7 @@ export default ({
         title: "Curso Ingreso UNAM",
         content: "Bachillerato en línea UNAM",
         price: "Desde $8,000.00 MXN",
-        url: "/ccm-ingreso-unam"
+        url: "/admisiones"
       },
       {
         imageSrc:
@@ -202,7 +202,7 @@ export default ({
         title: "Curso Ingreso IPN",
         content: "Bachillerato presencial IPN",
         price: "Desde $8,000.00 MXN",
-        url: "/ccm-ingreso-ipn"
+        url: "/admisiones"
       },
       {
         imageSrc:
@@ -210,7 +210,7 @@ export default ({
         title: "Curso Ingreso COMIPEMS",
         content: "Bachillerato presencial IPN",
         price: "Desde $8,000.00 MXN",
-        url: "/ccm-ingreso-comipems"
+        url: "/admisiones"
       }
     ]
   }
