@@ -17,9 +17,11 @@ import MainFeature from "components/features/TwoColWithTwoHorizontalFeaturesAndB
 import Pricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
 //import Blog from "components/blogs/GridWithFeaturedPost.js";
 //import Testimonial from "components/testimonials/TwoColumnWithImageAndRating.js";
-import FAQ from "components/faqs/SingleCol.js";
+//import FAQ from "components/faqs/SingleCol.js";
 import GetStarted from "components/cta/GetStartedLight.js";
 import Footer from "components/footers/MiniCenteredFooter";
+import Contact from "components/forms/TwoColContactUsWithIllustrationFullForm";
+
 
 const HighlightedText = tw.span`text-primary-500`
 
@@ -52,8 +54,8 @@ export default () => {
           },
           {
             imageSrc: CustomizeIconImage,
-            title: "Flexible",
-            description: "Innovador modelo educativo, una forma de trabajo adaptable a distintas necesidades y horarios."
+            title: "Inicio de docencia",
+            description: "Mayo 2022 / Septiembre 2022"
           },
           {
             imageSrc: ReliableIconImage,
@@ -63,7 +65,7 @@ export default () => {
           },
           {
             imageSrc: FastIconImage,
-            title: "Termina Rápido",
+            title: "Duración",
             description: "El programa tiene una duración de dos años."
           },
           {
@@ -104,8 +106,7 @@ export default () => {
       <Pricing
         heading={<>Planes <HighlightedText>Flexibles</HighlightedText></>}
       />
-      <FAQ
-        heading={<>Tienes <HighlightedText>Dudas</HighlightedText>?</>}
+      <Contact
       />
       <Footer />
     </AnimationRevealPage>

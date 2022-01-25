@@ -55,7 +55,7 @@ export default () => (
       textOnLeft={true}
     />
     <FAQ
-    
+
       imageSrc={customerSupportIllustrationSrc}
       imageContain={true}
       imageShadow={false}

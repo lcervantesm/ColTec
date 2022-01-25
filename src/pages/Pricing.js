@@ -15,7 +15,6 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Header />
-      <Pricing />
       <TabGrid
         heading={
           <>
@@ -23,6 +22,7 @@ export default () => {
           </>
         }
       />
+      <Pricing />
       <Testimonial
         heading="Nuestros estudiantes"
       />

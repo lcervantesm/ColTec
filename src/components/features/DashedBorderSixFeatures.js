@@ -70,31 +70,31 @@ export default () => {
       imageSrc: SimpleIconImage,
       title: "Bachilleratos",
       description: "Contamos con tres programas de bachillerato: SEP, UNAM e IPN, la elección es tuya.",
-      href: "/bachilleratos"
+      href: "/oferta"
     },
     { imageSrc: FastIconImage,
       title: "Licenciaturas",
       description: "Impulsa tu carrerra con una de nuestras Licenciaturas avaladas por la SEP y el IPN.",
-      href: "/licenciaturas"
+      href: "/oferta"
     },
     { imageSrc: ShieldIconImage,
       title: "Maestrías",
       description: "Contamos con dos programas de maestría para ti. Pronto habrá cada vez más programas.",
-      href: "/maestrias"
+      href: "/oferta"
     },
     { imageSrc: ReliableIconImage,
       title: "Educación Continua",
-      href: "/educacion-continua",
+      href: "/oferta",
       description: "Ofertamos 5 diplomados para especializarte en las tecnologías emergentes."
     },
     { imageSrc: SupportIconImage,
       title: "Cursos Ingreso IPN/UNAM",
-      href: "/cursos-ingreso",
+      href: "/oferta",
       description: "Destaca en el examen de selección e ingresa a la universidad de tus sueños."
     },
     { imageSrc: SupportIconImage,
       title: "Curso Ingreso COMIPEMS",
-      href: "/curso-comipems",
+      href: "/oferta",
       description: "¡Asegura tu primera opción!"
     }
   ];

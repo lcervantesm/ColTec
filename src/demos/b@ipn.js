@@ -33,7 +33,7 @@ export default () => {
       <Hero
         heading={<>Bachillerato IPN</>}
         imageSrc = {IpnImage}
-        description = "Contamos con el aval del IPN para impartir su programa de bachillerato. Podrás revalidar todo tu avance en caso de que entres posteriormente al IPN."
+        description = "Contamos con el aval del IPN para impartir su programa de bachillerato. Podrás revalidar todo tu avance en caso de que entres posteriormente al IPN. *Solo en plantel Zaragoza."
         primaryButtonUrl = "/admisiones"
         primaryButtonText = "¡Inscríbete!"
         features = {["Reconocimiento de Validez Oficial IPN", "Certificado IPN en 3 años.", "Becas disponibles"]}
@@ -57,8 +57,8 @@ export default () => {
           },
           {
             imageSrc: CustomizeIconImage,
-            title: "¿Qué esperar?",
-            description: "Tendrás la oportunidad de construir las mejores bases académicas y técnicas que conservarás para siempre."
+            title: "Inicio de docencia",
+            description: "Agosto 2022"
           },
           {
             imageSrc: ReliableIconImage,
@@ -68,8 +68,8 @@ export default () => {
           },
           {
             imageSrc: FastIconImage,
-            title: "Termina Rápido",
-            description: "Siempre puedes adelantar asignaturas."
+            title: "Duración",
+            description: "3 años."
           },
           {
             imageSrc: SimpleIconImage,

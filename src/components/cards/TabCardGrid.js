@@ -87,10 +87,10 @@ export default ({
       {
         imageSrc:
           logoSep,
-        title: "Bachillerato SEP",
-        content: "Bachillerato presencial SEP - Plantel Coapa",
+        title: "Preparatoria SEP",
+        content: "Preparatoria presencial SEP - Plantel Coapa",
         price: "Desde $2,000.00 MXN/mes",
-        url: "/bachillerato-sep"
+        url: "/preparatoria-sep"
       }
     ],
     Licenciaturas: [

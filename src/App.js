@@ -89,8 +89,18 @@ import AgencyLandingPage from "demos/AgencyLandingPage.js";
 // import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
 import RestaurantLandingPage from "demos/RestaurantLandingPage.js";
 //import ServiceLandingPage from "demos/ServiceLandingPage.js";
+//LANDING PAGES PROGRAMAS
 import Bunam from "demos/b@unam.js";
-import Bipn from "demos/b@ipn";
+import Bipn from "demos/b@ipn.js";
+import Bsep from "demos/b@sep.js";
+import LicCieInf from "demos/CienciasInformaticas.js";
+import ContaduriaIpn from "demos/Contaduria";
+import AdminIndustrial from "demos/AdminIndustrial";
+import Informatica from "demos/Informatica";
+import ContaduriaSep from "demos/ContaduriaSep";
+import Mercadotecnia from "demos/Mercadotecnia";
+import Derecho from "demos/Derecho";
+import Pedagogia from "demos/Pedagogia";
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 /* Inner Pages */
@@ -148,6 +158,33 @@ export default function App() {
         </Route>
         <Route path="/bachillerato-ipn">
           <Bipn />
+        </Route>
+        <Route path="/preparatoria-sep">
+          <Bsep />
+        </Route>
+        <Route path="/ciencias-de-la-informatica-ipn">
+          <LicCieInf />
+        </Route>
+        <Route path="/contaduria-ipn">
+          <ContaduriaIpn />
+        </Route>
+        <Route path="/admin-industrial-ipn">
+          <AdminIndustrial />
+        </Route>
+        <Route path="/informatica-sep">
+          <Informatica />
+        </Route>
+        <Route path="/contaduria-sep">
+          <ContaduriaSep />
+        </Route>
+        <Route path="/pedagogia-sep">
+          <Pedagogia />
+        </Route>
+        <Route path="/derecho-sep">
+          <Derecho />
+        </Route>
+        <Route path="/mercadotecnia-sep">
+          <Mercadotecnia />
         </Route>
         <Route path="/">
           <AgencyLandingPage />

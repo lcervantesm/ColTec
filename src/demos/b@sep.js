@@ -17,9 +17,10 @@ import MainFeature from "components/features/TwoColWithTwoHorizontalFeaturesAndB
 import Pricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
 //import Blog from "components/blogs/GridWithFeaturedPost.js";
 //import Testimonial from "components/testimonials/TwoColumnWithImageAndRating.js";
-import FAQ from "components/faqs/SingleCol.js";
+//import FAQ from "components/faqs/SingleCol.js";
 import GetStarted from "components/cta/GetStartedLight.js";
 import Footer from "components/footers/MiniCenteredFooter";
+import ContactUs from "components/forms/TwoColContactUsWithIllustrationFullForm";
 
 const HighlightedText = tw.span`text-primary-500`
 
@@ -27,25 +28,23 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>b@unam</>}
-        description = "Programa de bachillerato 100% en línea operado por la máxima casa de estudios. Termina en 2 años tu prepa."
+        heading={<>Preparatoria SEP</>}
+        description = "Programa de Preparatoria avalado por la Secretaría de Educación Pública. Termina en 3 años tu prepa. *Solo en Plantel Coapa."
         primaryButtonUrl = "/admisiones"
         primaryButtonText = "¡Inscríbete!"
-        features = {["Reconocimiento de Validez Oficial UNAM", "Certificado UNAM en 2 años.", "Becas disponibles"]}
+        features = {["Reconocimiento de Validez Oficial SEP", "Certificado SEP en 3 años.", "Becas disponibles"]}
         testimonial = {{
-          quote: "En el Colegio Tecnológico de México estamos listos para recibirte con los brazos abiertos.",
-          customerName: "Perla Bonilla",
-          customerCompany: "Directora Técnica del Programa"
+          quote: "En el Colegio Tecnológico de México Campus Coapa estamos listos para recibirte con los brazos abiertos.",
         }} />
       <Features
         heading={<>Conoce el <HighlightedText>Programa</HighlightedText></>}
-        subheading={<>b@unam</>}
-        description={"Los egresados de B@UNAM contarán con una preparación basada en una cultura científica y humanista que les permitirá ingresar a instituciones de nivel superior y cursar estudios en cualquier campo."}
+        subheading={<>Preparatoria SEP</>}
+        description={"La preparatoria del Colegio Tecnológico de México, ofrece planes y programas de estudio actualizados, que promueven el contacto directo de los estudiantes con la tecnología, formando individuos altamente competitivos para elegir su futuro profesional."}
         cards = {[
           {
             imageSrc: ShieldIconImage,
             title: "Validez Oficial",
-            description: "Incorporación UNAM | Acuerdo CIREyTG 14/21 del 30 de noviembre de 2021 | Clave de incorporación UNAM B410"
+            description: "Preparatoria Federal RVOE 050296 del 30 de agosto de 2005."
           },
           {
             imageSrc: SupportIconImage,
@@ -54,19 +53,19 @@ export default () => {
           },
           {
             imageSrc: CustomizeIconImage,
-            title: "Flexible",
-            description: "Innovador modelo educativo, una forma de trabajo adaptable a distintas necesidades y horarios."
+            title: "Inicio de docencia",
+            description: "Agosto 2022."
           },
           {
             imageSrc: ReliableIconImage,
             title: "Plan de Estudios",
-            link: "https://www.bunam.unam.mx/estructura_curricular.php",
+            link: "http://www.sems.gob.mx/work/models/sems/Resource/12491/4/images/libro.pdf",
             description: "Conoce tu plan de estudios. Da clic aquí."
           },
           {
             imageSrc: FastIconImage,
-            title: "Termina Rápido",
-            description: "El programa tiene una duración de dos años."
+            title: "Duración",
+            description: "3 años."
           },
           {
             imageSrc: SimpleIconImage,
@@ -85,12 +84,12 @@ export default () => {
       <MainFeature
         heading={<>Metodología <HighlightedText>Innovadora</HighlightedText></>}
         subheading={"Ventajas"}
-        description={"El B@UNAM es un bachillerato en línea, por ello el alumno puede estudiar desde cualquier computadora conectada a Internet y en los horarios que decida, pero debe cumplir, en el periodo establecido, el calendario respectivo."}
+        description={"Somos una Institución consolidada y reconocida por la calidad de sus egresados en los diversos niveles de estudios, en búsqueda permanente de mejora de sus procesos educativos, con la inclusión de las herramientas educativas y tecnología de punta."}
         features={[
           {
             Icon: BriefcaseIcon,
-            title: "Diseño Curricular",
-            description: "Un eje transversal de habilidades, actitudes y valores, considerado indispensable para la formación de un bachiller, atraviesa todas las asignaturas.",
+            title: "Inicio de docencia",
+            description: "Tenemos dos convocatorias al año, una en febrero y otra en agosto. Solicita información aquí.",
             iconContainerCss: tw`bg-teal-300 text-teal-800`
           },
           {
@@ -106,9 +105,7 @@ export default () => {
       <Pricing
         heading={<>Planes <HighlightedText>Flexibles</HighlightedText></>}
       />
-      <FAQ
-        heading={<>Tienes <HighlightedText>Dudas</HighlightedText>?</>}
-      />
+      <ContactUs />
       <Footer />
     </AnimationRevealPage>
   );
