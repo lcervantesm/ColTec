@@ -89,6 +89,8 @@ import AgencyLandingPage from "demos/AgencyLandingPage.js";
 // import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
 import RestaurantLandingPage from "demos/RestaurantLandingPage.js";
 //import ServiceLandingPage from "demos/ServiceLandingPage.js";
+import Bunam from "demos/b@unam.js";
+import Bipn from "demos/b@ipn";
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 /* Inner Pages */
@@ -140,6 +142,12 @@ export default function App() {
         </Route>
         <Route path="/alianzas">
           <RestaurantLandingPage />
+        </Route>
+        <Route path="/b@unam">
+          <Bunam />
+        </Route>
+        <Route path="/bachillerato-ipn">
+          <Bipn />
         </Route>
         <Route path="/">
           <AgencyLandingPage />

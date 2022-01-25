@@ -10,12 +10,12 @@ import TabGrid from "components/cards/TabCardGrid.js";
 //import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
 //import DownloadApp from "components/cta/DownloadApp.js";
 import Footer from "components/footers/MiniCenteredFooter";
-import logoTec from "images/logoCTM.png";
-import chefIconImageSrc from "images/chef-icon.svg";
-import celebrationIconImageSrc from "images/celebration-icon.svg";
+import logoTec from "images/logo-tec-de-mex.png";
+import chefIconImageSrc from "images/handshake-apple.png";
+import celebrationIconImageSrc from "images/logoSNTSS.jpeg";
 //import shopIconImageSrc from "images/shop-icon.svg";
 import convenioImage from "images/convenios-tec-de-mexico.jpg"
-
+import logoCCM from "images/logotec.png";
 
 export default () => {
   //const Subheading = tw.span`tracking-wider text-sm font-medium`;
@@ -43,20 +43,50 @@ export default () => {
           {
             imageSrc: logoTec,
             title: "Colegio Tecnológico de México",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://google.com"
+            description: "Aplica para oferta de bachillerato y licenciaturas. Contacto: Lic. Rosy González, Coordinadora de promoción y difusión.",
+            url: "https://sntss.org.mx/images/downloads/elements/convenios-academicos-nov-jnin-image.pdf",
           },
           {
             imageSrc: chefIconImageSrc,
-            title: "Professional Chefs",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://timerse.com"
+            title: "Convenio de Beneficios a Afiliados y Familiares",
+            description: " ",
+            url: "https://sntss.org.mx/images/downloads/elements/convenios-academicos-nov-jnin-image.pdf"
           },
           {
             imageSrc: celebrationIconImageSrc,
-            title: "Birthday Catering",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://reddit.com"
+            title: "Secretaría de Capacitación y Adiestramiento del SNTSS",
+            description: "30% de beca en inscripciones y colegiaturas. Contacto: Lic Fernando Pérez Collantes,  Secretario de Capacitación y Adiestramiento del SNTSS.",
+            url: "https://sntss.org.mx/images/downloads/elements/convenios-academicos-nov-jnin-image.pdf"
+          }
+        ]}
+
+        imageContainerCss={tw`p-2!`}
+        imageCss={tw`w-20! h-20!`}
+      />
+      <Features
+        heading={
+          <>
+            Nuestros <HighlightedText>Convenios.</HighlightedText>
+          </>
+        }
+        cards={[
+          {
+            imageSrc: logoTec,
+            title: "Colegio Tecnológico de México",
+            description: "Oferta educativa de ingreso a bachillerato y licenciatura.",
+            url: "https://ccm.edu.mx/",
+          },
+          {
+            imageSrc: chefIconImageSrc,
+            title: "Convenio para impartición conjunta.",
+            description: " ",
+            url: "https://ccm.edu.mx/"
+          },
+          {
+            imageSrc: logoCCM,
+            title: "Colegio de Ciencias Matemáticas",
+            description: "Años de experiencia nos respaldan.",
+            url: "https://ccm.edu.mx/"
           }
         ]}
 

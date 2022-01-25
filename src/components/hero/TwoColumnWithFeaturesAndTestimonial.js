@@ -11,7 +11,7 @@ import { ReactComponent as CheckboxIcon } from "feather-icons/dist/icons/check-c
 import { ReactComponent as QuotesLeftIconBase } from "images/quotes-l.svg"
 import { ReactComponent as SvgDecoratorBlob1 } from "images/dot-pattern.svg"
 
-const Header = tw(HeaderBase)`max-w-none`;
+const Header = tw(HeaderBase)`pt-8 max-w-none`;
 const Row = tw.div`flex flex-col lg:flex-row justify-between items-center lg:pt-16 max-w-screen-2xl mx-auto sm:px-8`;
 const Column = tw.div``;
 const TextColumn = tw(Column)`mr-auto lg:mr-0 max-w-lg lg:max-w-xl xl:max-w-2xl`;
@@ -54,20 +54,18 @@ export default ({
   const buttonRoundedCss = buttonRounded && tw`rounded-full`;
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">About</NavLink>
-      <NavLink href="/#">Blog</NavLink>
-      <NavLink href="/#">Pricing</NavLink>
-      <NavLink href="/#">Contact Us</NavLink>
-      <NavLink href="/#">Testimonials</NavLink>
+      <NavLink href="/quienes-somos">Conóncenos</NavLink>
+      <NavLink href="/planteles">Planteles</NavLink>
+      <NavLink href="/oferta">Oferta</NavLink>
+      <NavLink href="/reglamentos">Reglamentos</NavLink>
+      <NavLink href="/alianzas">Alianzas</NavLink>
+      <NavLink href="/admisiones">Admisiones</NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <NavLink href="/#" tw="lg:ml-12!">
-        Login
-      </NavLink>
-      <PrimaryLink css={buttonRoundedCss} href="/#">
-        Sign Up
+      <PrimaryLink className="orange" href="tel:+525557564938">
+        ¡Llámanos!
       </PrimaryLink>
-    </NavLinks>
+    </NavLinks>,
   ];
   return (
     <>

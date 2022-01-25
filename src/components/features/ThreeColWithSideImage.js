@@ -70,8 +70,8 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
   const defaultCards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      title: "Validez Oficial",
+      description: "Todos nuestros programas cuentan con Reconocimiento de Validez Oficial avalado por UNAM, IPN y SEP."
     },
     { imageSrc: SupportIconImage, title: "24/7 Support" },
     { imageSrc: CustomizeIconImage, title: "Customizable" },
@@ -98,7 +98,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">
-                  {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."}
+                  <a target="_blank" rel="noreferrer" href={card.link}>{card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."}</a>
                 </p>
               </span>
             </Card>

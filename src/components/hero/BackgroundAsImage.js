@@ -61,9 +61,9 @@ export default () => {
       <NavLink href="/quienes-somos">Conóncenos</NavLink>
       <NavLink href="/planteles">Planteles</NavLink>
       <NavLink href="/oferta">Oferta</NavLink>
-      <NavLink href="/comunidad">Comunidad</NavLink>
-      <NavLink href="/Alianzas">Alianzas</NavLink>
-      <NavLink href="/Admisiones">Admisiones</NavLink>
+      <NavLink href="/reglamentos">Reglamentos</NavLink>
+      <NavLink href="/alianzas">Alianzas</NavLink>
+      <NavLink href="/admisiones">Admisiones</NavLink>
     </NavLinks>,
     <NavLinks key={2}>
       <PrimaryLink className="orange" href="tel:+525557564938">

@@ -88,9 +88,10 @@ export default ({
   const defaultPlans = [
     {
       name: "Bachilleratos desde",
-      durationPrices: ["$3,000", "$30,000"],
+      durationPrices: ["$2,000", "$20,000"],
       mainFeature: "Ya sea para terminar o para empezar",
-      features: ["B@UNAM", "Bachillerato IPN", "Bachillerato SEP"]
+      features: ["B@UNAM", "Bachilleratos IPN y SEP"],
+      featured: true
     },
     {
       name: "Licenciaturas desde",
@@ -145,7 +146,7 @@ export default ({
                 ))}
               </PlanFeatures>
               <PlanAction>
-                <BuyNowButton className="orange">{primaryButtonText}</BuyNowButton>
+                <BuyNowButton className="orange"><a href="/admisiones">{primaryButtonText}</a></BuyNowButton>
               </PlanAction>
             </Plan>
           ))}

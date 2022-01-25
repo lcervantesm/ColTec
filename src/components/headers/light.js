@@ -75,7 +75,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/quienes-somos">Conóncenos</NavLink>
       <NavLink href="/planteles">Planteles</NavLink>
       <NavLink href="/oferta">Oferta</NavLink>
-      <NavLink href="/comunidad">Comunidad</NavLink>
+      <NavLink href="/reglamentos">Reglamentos</NavLink>
       <NavLink href="/Alianzas">Alianzas</NavLink>
       <NavLink href="/Admisiones">Admisiones</NavLink>
       <PrimaryLink className="orange" css={roundedHeaderButton && tw`rounded-full`}href="tel:+525557564938">¡Llámanos!</PrimaryLink>
