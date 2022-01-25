@@ -22,7 +22,7 @@ import GetStarted from "components/cta/GetStartedLight.js";
 import Footer from "components/footers/MiniCenteredFooter";
 import Contact from "components/forms/TwoColContactUsWithIllustrationFullForm";
 //import Pdf from "images/Administracion-industrial-IPN.jpeg";
-import SEPImage from "images/derecho.jpeg";
+import SEPImage from "images/derecho.png";
 
 
 const HighlightedText = tw.span`text-primary-500`

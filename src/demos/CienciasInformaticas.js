@@ -21,8 +21,8 @@ import Pricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
 import GetStarted from "components/cta/GetStartedLight.js";
 import Footer from "components/footers/MiniCenteredFooter";
 import Contact from "components/forms/TwoColContactUsWithIllustrationFullForm";
-import Pdf from "images/Ciencias-de-la-informatica.jpeg";
-import IpnImage from "images/Informatica.jpg";
+import Pdf from "images/Ciencias-de-la-informatica.png";
+import IpnImage from "images/Informatica.png";
 
 
 const HighlightedText = tw.span`text-primary-500`

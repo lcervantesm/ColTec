@@ -21,8 +21,8 @@ import Pricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
 import GetStarted from "components/cta/GetStartedLight.js";
 import Footer from "components/footers/MiniCenteredFooter";
 import Contact from "components/forms/TwoColContactUsWithIllustrationFullForm";
-import Pdf from "images/Administracion-industrial-IPN.jpeg";
-import IpnImage from "images/administradora.jpeg";
+import Pdf from "images/Administracion-industrial-IPN.png";
+import IpnImage from "images/administradora.png";
 
 
 const HighlightedText = tw.span`text-primary-500`
