@@ -10,7 +10,7 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-7.svg";
 import bUNAM from "images/logo_bunam.png";
-import logoPoli from "images/640px-Logo_Instituto_Politécnico_Nacional.png";
+import logoPoli from "images/640px-Logo_Instituto_Politecnico_Nacional.png";
 import logoSep from "images/SEP.png";
 import logoCCM from "images/logotec.png";
 import proximamente from "images/proximamente.png";
