@@ -90,7 +90,7 @@ export default () => {
           </LeftColumn>
           <RightColumn>
             <StyledResponsiveVideoEmbed
-              url="//player.vimeo.com/video/374265101?title=0&portrait=0&byline=0&autoplay=0&responsive=1"
+              url="//player.vimeo.com/video/683836436?title=0&portrait=0&byline=0&autoplay=1&responsive=1&autopause=0"
               background="transparent"
             />
           </RightColumn>
