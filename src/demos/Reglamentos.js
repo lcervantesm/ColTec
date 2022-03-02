@@ -23,7 +23,7 @@ import Footer from "components/footers/FiveColumnDark";
 import Contact from "components/forms/TwoColContactUsWithIllustrationFullForm";
 //import Pdf from "images/Administracion-industrial-IPN.jpeg";
 //import SEPImage from "images/marketing.jpeg";
-import Reglamento from "documents/Reglamento.pdf";
+//import Reglamento from "documents/Reglamento.pdf";
 import Header from "components/headers/light.js"
 
 const HighlightedText = tw.span`text-primary-500`
@@ -40,7 +40,7 @@ export default () => {
           {
             imageSrc: ReliableIconImage,
             title: "Reglamento General",
-            link: Reglamento,
+            link: "https://drive.google.com/file/d/1lViR0Q47sUu3jRGQCSGh6_ee7oXXZXK7/view?usp=sharing",
             description: "Consulta aquí."
           }
         ]}
