@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading } from "components/misc/Headings.js";
 import { PrimaryLink as PrimaryLinkBase } from "components/misc/Links.js";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+//import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { ReactComponent as LocationIcon } from "feather-icons/dist/icons/map-pin.svg";
 import { ReactComponent as TimeIcon } from "feather-icons/dist/icons/clock.svg";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
@@ -54,13 +54,13 @@ const CardMetaFeature = styled.div`
     ${tw`w-5 h-5 mr-1`}
   }
 `;
-const CardAction = tw(PrimaryButtonBase)`w-full mt-6`;
+//const CardAction = tw(PrimaryButtonBase)`w-full mt-6`;
 
 export default ({
   subheading = "Our Portfolio",
   headingHtmlComponent = (
     <>
-      We've done some <span tw="text-primary-500">amazing projects.</span>
+      ¿Te interesa algún programa? <span tw="text-primary-500">Hablemos.</span>
     </>
   ),
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.",
@@ -72,20 +72,47 @@ export default ({
     {
       imageSrc:
         "https://images.unsplash.com/photo-1563461660947-507ef49e9c47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
-      company: "Tesla Inc.",
-      type: "Ad Campaign",
-      title: "Personalized Ad Campaign using Google AdWords",
-      durationText: "90 Days Campaign",
-      locationText: "New York"
+      company: "Plantel Zaragoza",
+      type: "Programas",
+      title: "B@UNAM",
+      title2: "Bachillerato IPN",
+      title3: "Lic. en Ciencias Informáticas IPN",
+      title4: "Lic. en Contaduría Pública IPN",
+      title5: "Lic. en Administración Industrial IPN",
+      title6: "Lic. en Informática SEP",
+      title7: "Lic. en Contaduría Pública SEP",
+      title8: "Lic. en Pedagogía SEP",
+      title9: "Lic. en Mercadotecnia SEP",
+      title10: "Lic. en Derecho SEP",
+      title11: "Maestría en Administración de Hospitales",
+      title12: "Maestría en Ciencias de la Educación",
+      titleLink1: "/b@unam",
+      titleLink2: "/bachillerato-ipn",
+      titleLink3: "/ciencias-de-la-informatica-ipn",
+      titleLink4: "/contaduria-ipn",
+      titleLink5: "/admin-industrial-ipn",
+      durationText: "L - V de 9:00 a 17:00 hrs.",
+      locationText: "Sur CDMX",
+      address: "Calzada I Zaragoza No. 1329 Col. Tepalcates, CDMX"
     },
     {
       imageSrc:
         "https://images.unsplash.com/photo-1573165231977-3f0e27806045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
-      company: "Nestle",
-      type: "SEO Marketing",
-      title: "Ranking #1 for keywords like Chocolate, Snack",
-      durationText: "180 Day Campaign",
-      locationText: "Palo Alto"
+      company: "Plantel Coapa",
+      type: "Programas",
+      title: "B@UNAM",
+      title2: "Preparatoria SEP",
+      title3: "Curso de Ingreso a UNAM",
+      title4: "Curso de Ingreso a IPN",
+      title5: "Curso de Ingreso COMIPEMS",
+      titleLink1: "/b@unam",
+      titleLink2: "/preparatoria-sep",
+      titleLink3: "/admisiones",
+      titleLink4: "/admisiones",
+      titleLink5: "/admisiones",
+      durationText: "L - V de 9:00 a 17:00 hrs.",
+      locationText: "Sur CDMX",
+      address: "Parma No.3, Col. Ex-Hacienda de Coapa, Tlalpan, CDMX"
     }
   ];
   return (
@@ -111,7 +138,6 @@ export default ({
                     <CardCompany>{card.company}</CardCompany>
                     <CardType>{card.type}</CardType>
                   </CardHeader>
-                  <CardTitle>{card.title}</CardTitle>
                   <CardMeta>
                     <CardMetaFeature>
                       <TimeIcon /> {card.durationText}
@@ -120,7 +146,21 @@ export default ({
                       <LocationIcon /> {card.locationText}
                     </CardMetaFeature>
                   </CardMeta>
-                  <CardAction>{cardLinkText}</CardAction>
+                  <CardText>
+                    {card.address}
+                  </CardText>
+                  <CardTitle><h5 className="link-program"><a href={card.titleLink1}>{card.title}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href={card.titleLink2}>{card.title2}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href={card.titleLink3}>{card.title3}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href={card.titleLink4}>{card.title4}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href={card.titleLink5}>{card.title5}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href="/informatica-sep">{card.title6}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href="/contaduria-sep">{card.title7}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href="/pedagogia-sep">{card.title8}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href="/mercadotecnia-sep">{card.title9}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href="/derecho-sep">{card.title10}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href="/admisiones">{card.title11}</a></h5></CardTitle>
+                  <CardTitle><h5 className="link-program"><a href="/admisiones">{card.title12}</a></h5></CardTitle>
                 </CardText>
               </Card>
             </CardColumn>

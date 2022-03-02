@@ -9,13 +9,19 @@ import defaultCardImage from "../../images/shield-icon.svg";
 
 import { ReactComponent as SvgDecoratorBlob3 } from "../../images/svg-decorator-blob-3.svg";
 
-import SupportIconImage from "../../images/support-icon.svg";
-import ShieldIconImage from "../../images/shield-icon.svg";
-import CustomizeIconImage from "../../images/customize-icon.svg";//eslint-disable-line
-import FastIconImage from "../../images/fast-icon.svg";
-import ReliableIconImage from "../../images/reliable-icon.svg";
-import SimpleIconImage from "../../images/simple-icon.svg";
+// import SupportIconImage from "../../images/support-icon.svg";
+// import ShieldIconImage from "../../images/shield-icon.svg";
+// import CustomizeIconImage from "../../images/customize-icon.svg";//eslint-disable-line
+// import FastIconImage from "../../images/fast-icon.svg";
+// import ReliableIconImage from "../../images/reliable-icon.svg";
+//import SimpleIconImage from "../../images/simple-icon.svg";
+import iconoBach from "../../images/alumnos-ctm.png";
+import iconoLic from "../../images/alumnas-ctm izq.png";
+import iconoComipems from "../../images/comipems.png";
+import iconoSuperior from "../../images/ingreso_superior.png";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+import iconoMaestria from "../../images/aula_despues.png";
+import iconoEduC from "../../images/_DSC1576.png";
 
 const Container = tw.div`relative`;
 
@@ -32,12 +38,7 @@ const PrimaryButton = tw(PrimaryButtonBase)`mt-8 md:mt-10 text-sm inline-block m
 
 const Card = styled.div`
   ${tw`flex flex-col mx-auto max-w-xs items-center px-6 py-10 border-2 border-dashed border-primary-500 rounded-lg mt-12`}
-  .imageContainer {
-    ${tw`border-2 border-primary-500 text-center rounded-full p-6 flex-shrink-0 relative`}
-    img {
-      ${tw`w-8 h-8`}
-    }
-  }
+  
 
   .textContainer {
     ${tw`mt-6 text-center`}
@@ -67,32 +68,32 @@ export default () => {
 
   const cards = [
     {
-      imageSrc: SimpleIconImage,
+      imageSrc: iconoBach,
       title: "Bachilleratos",
       description: "Contamos con tres programas de bachillerato: SEP, UNAM e IPN, la elección es tuya.",
       href: "/oferta"
     },
-    { imageSrc: FastIconImage,
+    { imageSrc: iconoLic,
       title: "Licenciaturas",
       description: "Impulsa tu carrerra con una de nuestras Licenciaturas avaladas por la SEP y el IPN.",
       href: "/oferta"
     },
-    { imageSrc: ShieldIconImage,
+    { imageSrc: iconoMaestria,
       title: "Maestrías",
       description: "Contamos con dos programas de maestría para ti. Pronto habrá cada vez más programas.",
       href: "/oferta"
     },
-    { imageSrc: ReliableIconImage,
+    { imageSrc: iconoEduC,
       title: "Educación Continua",
       href: "/oferta",
       description: "Ofertamos 5 diplomados para especializarte en las tecnologías emergentes."
     },
-    { imageSrc: SupportIconImage,
+    { imageSrc: iconoSuperior,
       title: "Cursos Ingreso IPN/UNAM",
       href: "/oferta",
       description: "Destaca en el examen de selección e ingresa a la universidad de tus sueños."
     },
-    { imageSrc: SupportIconImage,
+    { imageSrc: iconoComipems,
       title: "Curso Ingreso COMIPEMS",
       href: "/oferta",
       description: "¡Asegura tu primera opción!"

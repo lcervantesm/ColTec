@@ -44,123 +44,58 @@ export default ({ headingText = "Privacy Policy" }) => {
             <Heading>{headingText}</Heading>
           </HeadingRow>
           <Text>
-            <p>Last updated: April 21, 2020</p>
+            <p>Última actualización: Marzo 1, 2022</p>
 
             <p>
-              This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your
-              information when You use the Service and tells You about Your privacy rights and how the law protects You.
+            En cumplimiento con la Ley Federal de Protección de Datos Personales
+            en Posesión de los Particulares, el Colegio Tecnológico de México, con
+            domicilio en Calzada Ignacio Zaragoza, No. 1329, Col. Tepalcate,
+            CDMX, como usuario del sitio web, hace de su conocimiento el
+            siguiente:
             </p>
 
+            <h1>AVISO DE PRIVACIDAD</h1>
             <p>
-              We use Your Personal data to provide and improve the Service. By using the Service, You agree to the
-              collection and use of information in accordance with this Privacy Policy.
+            1. Los datos personales que el titular ha proporcionado al Colegio
+            Tecnológico de México, se utilizarán con los siguientes fines:
             </p>
+            <p>i. El correo electrónico se utiliza para crear un perfil de los visitantes de
+la página web.Únicamente para la elaboración del perfil de los
+visitantes, el Colegio Tecnológico de México, podrá transferir sus
+datos a un tercero.
+ii.En caso de que el titular no autorice esta transferencia o de que se
+oponga a la misma, el Colegio Tecnológico de México no podrá
+enviarle la información que sea difundida a través de terceros,
+pero podrá continuar enviándole otro tipo de información siempre
+y cuando no implique la transferencia de sus datos personales a
+terceras personas.
+iii. En caso de no manifestarse en contra de esta transferencia, se
+tendrá por aceptada de acuerdo con lo establecido en artículo 8,
+párrafo tercero, de la Ley Federal de Protección de Datos
+Personales en Posesión de los Particulares.
+2. En caso de que el usuario quiera limitar el uso o divulgación de sus
+datos, deberá hacerlo del conocimiento al Colegio Tecnológico de
+México, a través de una solicitud por escrito con los datos que se
+especifican en el siguiente punto.
+3. Para acceder, rectificar o cancelar sus datos, así como oponerse al
+uso futuro de los mismos, el usuario deberá enviar una solicitud al
+Colegio Tecnológico de México, con los siguientes datos:
+i. El nombre del titular y domicilio u otro medio para comunicarle la
+respuesta a su solicitud;
+ii.Los documentos que acrediten la identidad o, en su caso, la
+representación legal del titular; y
+iii. La descripción clara y precisa de los datos personales respecto
+de los que se busca ejercer alguno de los derechos antes
+mencionados. De acuerdo con la Ley, el Colegio Tecnológico de
+México, responderá las solicitudes en un término de 20 días,
+prorrogables según el caso.
+4. En caso de que este AVISO DE PRIVACIDAD cambie en sus
+términos, el Colegio Tecnológico de México se lo informará a la
+dirección de correo electrónico que el titular de los datos asentó en el
+formato.</p>
+   
 
-            <h1>Interpretation and Definitions</h1>
-            <h2>Interpretation</h2>
-            <p>
-              The words of which the initial letter is capitalized have meanings defined under the following conditions.
-            </p>
-            <p>
-              The following definitions shall have the same meaning regardless of whether they appear in singular or in
-              plural.
-            </p>
-
-            <h2>Definitions</h2>
-            <p>For the purposes of this Privacy Policy:</p>
-            <ul>
-              <li>
-                <p>
-                  <strong>You</strong> means the individual accessing or using the Service, or the company, or other
-                  legal entity on behalf of which such individual is accessing or using the Service, as applicable.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement)
-                  refers to Treact.
-                </p>
-              </li>
-              <li>
-                <strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control
-                with a party, where "control" means ownership of 50% or more of the shares, equity interest or other
-                securities entitled to vote for election of directors or other managing authority.
-              </li>
-              <li>
-                <strong>Account</strong> means a unique account created for You to access our Service or parts of our
-                Service.
-              </li>
-              <li>
-                <strong>Website</strong> refers to Treact, accessible from https://treact.com
-              </li>{" "}
-              <li>
-                <strong>Service</strong> refers to the Website.
-              </li>
-              <li>
-                <strong>Country</strong> refers to: Maharashtra, India
-              </li>
-              <li>
-                <p>
-                  <strong>Service Provider</strong> means any natural or legal person who processes the data on behalf
-                  of the Company. It refers to third-party companies or individuals employed by the Company to
-                  facilitate the Service, to provide the Service on behalf of the Company, to perform services related
-                  to the Service or to assist the Company in analyzing how the Service is used.
-                </p>
-              </li>
-              <li>
-                <strong>Third-party Social Media Service</strong> refers to any website or any social network website
-                through which a User can log in or create an account to use the Service.
-              </li>
-              <li>
-                <p>
-                  <strong>Personal Data</strong> is any information that relates to an identified or identifiable
-                  individual.
-                </p>
-              </li>
-              <li>
-                <strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other
-                device by a website, containing the details of Your browsing history on that website among its many
-                uses.
-              </li>{" "}
-              <li>
-                <strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the
-                Service or from the Service infrastructure itself (for example, the duration of a page visit).
-              </li>
-            </ul>
-
-            <h1>Collecting and Using Your Personal Data</h1>
-            <h2>Types of Data Collected</h2>
-
-            <h3>Personal Data</h3>
-            <p>
-              While using Our Service, We may ask You to provide Us with certain personally identifiable information
-              that can be used to contact or identify You. Personally identifiable information may include, but is not
-              limited to:
-            </p>
-            <ul>
-              <li>Email address</li> <li>First name and last name</li> <li>Phone number</li>{" "}
-              <li>Address, State, Province, ZIP/Postal code, City</li> <li>Usage Data</li>
-            </ul>
-
-            <h3>Usage Data</h3>
-            <p>Usage Data is collected automatically when using the Service.</p>
-            <p>
-              Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address),
-              browser type, browser version, the pages of our Service that You visit, the time and date of Your visit,
-              the time spent on those pages, unique device identifiers and other diagnostic data.
-            </p>
-            <p>
-              When You access the Service by or through a mobile device, We may collect certain information
-              automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique
-              ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet
-              browser You use, unique device identifiers and other diagnostic data.
-            </p>
-            <p>
-              We may also collect information that Your browser sends whenever You visit our Service or when You access
-              the Service by or through a mobile device.
-            </p>
-
-            <h3>Tracking Technologies and Cookies</h3>
+            {/* <h3>Tracking Technologies and Cookies</h3>
             <p>
               We use Cookies and similar tracking technologies to track the activity on Our Service and store certain
               information. Tracking technologies used are beacons, tags, and scripts to collect and track information
@@ -381,7 +316,7 @@ export default ({ headingText = "Privacy Policy" }) => {
             <p>
               You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy
               are effective when they are posted on this page.
-            </p>
+            </p> */}
           </Text>
         </ContentWithPaddingXl>
       </Container>

@@ -9,12 +9,12 @@ import Features from "components/features/ThreeColSimple.js";
 import TabGrid from "components/cards/TabCardGrid.js";
 //import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
 //import DownloadApp from "components/cta/DownloadApp.js";
-import Footer from "components/footers/MiniCenteredFooter";
+import Footer from "components/footers/FiveColumnDark";
 import logoTec from "images/logo-tec-de-mex.png";
 import chefIconImageSrc from "images/handshake-apple.png";
-import celebrationIconImageSrc from "images/logoSNTSS.jpeg";
+import celebrationIconImageSrc from "images/logoSNTSS.png";
 //import shopIconImageSrc from "images/shop-icon.svg";
-import convenioImage from "images/convenios-tec-de-mexico.jpg"
+import convenioImage from "images/convenios-tec-de-mexico.png";
 import logoCCM from "images/logotec.png";
 
 export default () => {
@@ -74,19 +74,19 @@ export default () => {
             imageSrc: logoTec,
             title: "Colegio Tecnológico de México",
             description: "Oferta educativa de ingreso a bachillerato y licenciatura.",
-            url: "https://ccm.edu.mx/",
+            url: "",
           },
           {
             imageSrc: chefIconImageSrc,
             title: "Convenio para impartición conjunta.",
             description: " ",
-            url: "https://ccm.edu.mx/"
+            url: ""
           },
           {
             imageSrc: logoCCM,
             title: "Colegio de Ciencias Matemáticas",
             description: "Años de experiencia nos respaldan.",
-            url: "https://ccm.edu.mx/"
+            url: ""
           }
         ]}
 

@@ -3,10 +3,10 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
-import LogoImage from "images/logo-light.svg";
+import LogoImage from "images/logoCTM.png";
 import { ReactComponent as FacebookIcon } from "images/facebook-icon.svg";
-import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
-import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
+//import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
+//import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
 
 const Container = tw.div`relative bg-gray-900 text-gray-100 -mx-8 -mb-8 px-8`;
 const Content = tw.div`max-w-screen-xl mx-auto pt-16 pb-8`
@@ -48,98 +48,81 @@ export default () => {
           <CompanyColumn>
             <LogoContainer>
               <LogoImg src={LogoImage} />
-              <LogoText>Treact Inc.</LogoText>
+              <LogoText>Colegio Tecnológico de México</LogoText>
             </LogoContainer>
             <CompanyAddress>
-              123 Road, New Startup Building
-              Carter Road, San Francisco
-              California 40234
+
             </CompanyAddress>
             <SocialLinksContainer>
-              <SocialLink href="https://facebook.com">
+              <SocialLink href="https://www.facebook.com/Colegio-Tecnol%C3%B3gico-de-M%C3%A9xico-343709165799910/?ref=page_internal">
                 <FacebookIcon />
-              </SocialLink>
-              <SocialLink href="https://twitter.com">
-                <TwitterIcon />
-              </SocialLink>
-              <SocialLink href="https://youtube.com">
-                <YoutubeIcon />
               </SocialLink>
             </SocialLinksContainer>
           </CompanyColumn>
           <Column>
-            <ColumnHeading>Quick Links</ColumnHeading>
+            <ColumnHeading className="orange-text">Plantel Zaragoza</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Blog</Link>
+              Calzada I Zaragoza No. 1329 Col. Tepalcates, CDMX.
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">FAQs</Link>
+              <a href="tel:+525557564938">+52 55 5756 4938</a>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Support</Link>
+              <a href="tel:+525557635628">+52 55 5763 5628</a>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">About Us</Link>
+              <a href="mailto: informes2@tecdemexico.edu.mx">informes2@tecdemexico.edu.mx</a>
               </LinkListItem>
             </LinkList>
           </Column>
           <Column>
-            <ColumnHeading>Product</ColumnHeading>
+            <ColumnHeading className="orange-text">Plantel Coapa</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Log In</Link>
+              Parma No. 3 Col. Ex-Hacienda de Coapa, CDMX.
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Personal</Link>
+              <a href="tel:+525556779934">+52 55 5677 9934</a>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Business</Link>
+              <a href="tel:+525556779209">+52 55 5677 9209</a>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Team</Link>
+              <a href="mailto: informes-coapa@tecdemexico.edu.mx">informes-coapa@tecdemexico.edu.mx</a>
               </LinkListItem>
             </LinkList>
           </Column>
           <Column>
-            <ColumnHeading>Legal</ColumnHeading>
+            <ColumnHeading className="orange-text">Programas</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">GDPR</Link>
+                <Link href="oferta">Bachillerato</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Privacy Policy</Link>
+                <Link href="oferta">Licenciatura</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Terms of Service</Link>
+                <Link href="oferta">Maestría</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Disclaimer</Link>
+                <Link href="oferta">Cursos</Link>
               </LinkListItem>
             </LinkList>
           </Column>
           <Column>
-            <ColumnHeading>Contact</ColumnHeading>
+            <ColumnHeading className="orange-text">Legal</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                +1 (234) (567)-8901
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="mailto:support@servana.com">support@servana.com</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Sales</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Report Abuse</Link>
+                <Link href="aviso-de-privacidad">Aviso de Privacidad</Link>
               </LinkListItem>
             </LinkList>
           </Column>
         </FiveColumns>
         <Divider/>
         <CopyrightAndCompanyInfoRow>
-          <CopyrightNotice>&copy; Copyright 2020, Treact Inc.</CopyrightNotice>
-          <CompanyInfo>An Internet Company.</CompanyInfo>
+          <CopyrightNotice>&copy; Copyright 2022, Colegio Tecnológico de México.</CopyrightNotice>
+          <CompanyInfo>Excelente relación calidad-precio.</CompanyInfo>
         </CopyrightAndCompanyInfoRow>
       </Content>
     </Container>

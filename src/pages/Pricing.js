@@ -4,7 +4,7 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Header from "components/headers/light.js";
 import Pricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
 import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
-import Footer from "components/footers/MiniCenteredFooter";
+import Footer from "components/footers/FiveColumnDark";
 import FAQ from "components/faqs/SingleCol.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import ContactUs from "./ContactUsWOHeader.js";

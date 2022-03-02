@@ -19,7 +19,7 @@ import Pricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
 //import Testimonial from "components/testimonials/TwoColumnWithImageAndRating.js";
 //import FAQ from "components/faqs/SingleCol.js";
 import GetStarted from "components/cta/GetStartedLight.js";
-import Footer from "components/footers/MiniCenteredFooter";
+import Footer from "components/footers/FiveColumnDark";
 import ContactUs from "components/forms/TwoColContactUsWithIllustrationFullForm";
 
 const HighlightedText = tw.span`text-primary-500`

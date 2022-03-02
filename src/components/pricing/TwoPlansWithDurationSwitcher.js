@@ -14,11 +14,11 @@ const Subheading = tw(SubheadingBase)`mb-4`;
 const Heading = tw(SectionHeading)`w-full`;
 const Description = tw(SectionDescription)`w-full text-center`;
 
-const PlanDurationSwitcher = tw.div`block w-full max-w-xs sm:inline-block sm:w-auto border-2 rounded-full px-1 py-1 mt-8`;
-const SwitchButton = styled.button`
-  ${tw`w-1/2 sm:w-32 px-4 sm:px-8 py-3 rounded-full focus:outline-none text-sm font-bold text-gray-700 transition duration-300`}
-  ${props => props.active && tw`bg-primary-500 text-gray-100`}
-`;
+// const PlanDurationSwitcher = tw.div`block w-full max-w-xs sm:inline-block sm:w-auto border-2 rounded-full px-1 py-1 mt-8`;
+// const SwitchButton = styled.button`
+//   ${tw`w-1/2 sm:w-32 px-4 sm:px-8 py-3 rounded-full focus:outline-none text-sm font-bold text-gray-700 transition duration-300`}
+//   ${props => props.active && tw`bg-primary-500 text-gray-100`}
+// `;
 
 const PlansContainer = tw.div`flex justify-center flex-col md:flex-row items-center md:items-start relative`;
 const Plan = styled.div`
@@ -71,7 +71,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   subheading = "Conoce nuestra oferta",
   heading = "Colegiaturas Accesibles.",
-  description = "Una educación de calidad no debe ser prohibitiva; por ello en el Colegio Tecnológico de México tenemos un atractivo programa de becas. Pergunta por él.",
+  description = "Una educación de calidad no debe ser prohibitiva; por ello en el Colegio Tecnológico de México tenemos un atractivo programa de becas. Pregunta por él.",
   plans = null,
   primaryButtonText = "inscríbete ahora",
   planDurations = [
@@ -111,7 +111,7 @@ export default ({
 
   if (!plans) plans = defaultPlans;
 
-  const [activeDurationIndex, setActiveDurationIndex] = useState(0);
+  const [activeDurationIndex, ] = useState(0);
 
   return (
     <Container>
@@ -120,11 +120,11 @@ export default ({
           {subheading && <Subheading className="orange-text">{subheading}</Subheading>}
           <Heading>{heading}</Heading>
           {description && <Description>{description}</Description>}
-        <PlanDurationSwitcher className="orange">
+        {/* <PlanDurationSwitcher className="orange">
           {planDurations.map((planDuration, index) => (
             <SwitchButton  active={activeDurationIndex === index} key={index} onClick={() => setActiveDurationIndex(index)}>{planDuration.switcherText}</SwitchButton>
           ))}
-        </PlanDurationSwitcher>
+        </PlanDurationSwitcher> */}
         </HeaderContainer>
         <PlansContainer>
           {plans.map((plan, index) => (

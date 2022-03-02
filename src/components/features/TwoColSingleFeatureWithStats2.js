@@ -46,7 +46,7 @@ export default ({
       Excelencia académica <wbr /> desde <span className="orange-text" tw="text-primary-500">1997</span>.
     </>
   ),
-  description = "Forma parte del Colegio Tecnológico de México y cambia tu futuro. Prepárate con nosotros. Tenemos exelentes planes de estudios avalados por SEP, UNAM e IPN. Te invitamos a una de nuestras sesiones informativas para que podamos resolver todas tus dudas y puedas conocer nuestras instalaciones.",
+  description = "Forma parte del Colegio Tecnológico de México y cambia tu futuro. Prepárate con nosotros. Tenemos excelentes planes de estudios avalados por SEP, UNAM e IPN. Te invitamos a una de nuestras sesiones informativas para que podamos resolver todas tus dudas y puedas conocer nuestras instalaciones.",
   primaryButtonText = "Conoce más",
   primaryButtonUrl = "/quienes-somos",
   imageSrc = StatsIllustrationSrc,
@@ -66,12 +66,12 @@ export default ({
       value: "3"
     },
     {
-      key: "Licenciaturas y Maestrías",
-      value: "15+"
+      key: "Licenciaturas",
+      value: "9"
     },
     {
-      key: "Egresados",
-      value: "1000+"
+      key: "Maestrías",
+      value: "2"
     }
   ];
 
