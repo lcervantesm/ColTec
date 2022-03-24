@@ -71,7 +71,7 @@ export default ({
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1563461660947-507ef49e9c47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
+        "https://i.ibb.co/jzb1nWb/Plantel-Zaragoza.png",
       company: "Plantel Zaragoza",
       type: "Programas",
       title: "B@UNAM",
@@ -97,7 +97,7 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1573165231977-3f0e27806045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
+        "https://i.ibb.co/ykXKp99/Plantel-Coapa.png",
       company: "Plantel Coapa",
       type: "Programas",
       title: "B@UNAM",

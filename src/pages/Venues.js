@@ -15,7 +15,7 @@ export default () => {
         <AnimationRevealPage>
         <Header />
         <ContactCard subheading = "Nuestros planteles"
-            description = "Contamos con dos planteles con buenas instalaciones al sur de la Ciudad de México. Contáctanos hoy."
+            description = "Comienza a cambiar tu futuro aquí."
             linkText = "Contáctanos"
             cardLinkText = "Contáctanos"
             // {

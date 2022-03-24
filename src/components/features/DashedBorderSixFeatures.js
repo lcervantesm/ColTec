@@ -15,12 +15,12 @@ import { ReactComponent as SvgDecoratorBlob3 } from "../../images/svg-decorator-
 // import FastIconImage from "../../images/fast-icon.svg";
 // import ReliableIconImage from "../../images/reliable-icon.svg";
 //import SimpleIconImage from "../../images/simple-icon.svg";
-import iconoBach from "../../images/alumnos-ctm.png";
-import iconoLic from "../../images/alumnas-ctm izq.png";
+import iconoBach from "../../images/ImagenPrepa.png";
+import iconoLic from "../../images/ImagenLic.png";
 import iconoComipems from "../../images/comipems.png";
 import iconoSuperior from "../../images/ingreso_superior.png";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import iconoMaestria from "../../images/aula_despues.png";
+import iconoMaestria from "../../images/ImagenMaestrias.png";
 import iconoEduC from "../../images/_DSC1576.png";
 
 const Container = tw.div`relative`;
@@ -103,7 +103,7 @@ export default () => {
   return (
     <Container>
       <ThreeColumnContainer>
-        <Heading>Programas de Calidad <span className="orange-text" tw="text-primary-500">Mundial</span></Heading>
+        <Heading>Programas de <span className="orange-text" tw="text-primary-500">Calidad</span></Heading>
         {cards.map((card, i) => (
           <Column key={i}>
             <Card>

@@ -3,7 +3,7 @@ import tw from "twin.macro";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Header from "components/headers/light.js";
 import Pricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
-import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
+//import Testimonial from "components/testimonials/ThreeColumnWithProfileImage.js";
 import Footer from "components/footers/FiveColumnDark";
 import FAQ from "components/faqs/SingleCol.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
@@ -23,9 +23,6 @@ export default () => {
         }
       />
       <Pricing />
-      <Testimonial
-        heading="Nuestros estudiantes"
-      />
       <FAQ
       description="Resuélvelas aquí."
       imageSrc={customerSupportIllustrationSrc}

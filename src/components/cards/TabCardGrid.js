@@ -11,7 +11,16 @@ import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-5
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-7.svg";
 import bUNAM from "images/logo_bunam.png";
 import logoPoli from "images/640px-Logo_Instituto_Politecnico_Nacional.png";
-import logoSep from "images/SEP.png";
+import prepaSep from "images/ImagenPrepaCTMcuadrado.png";
+import prepaIpn from "images/ImagenIPNBachCTMcuadrado.png";
+//import logoSep from "images/SEP.png";
+import Derecho from "images/ImagenDerechoSEP.png";
+import Informatica from "images/ImagenInformaticaSEP.png";
+import Pedagogia from "images/ImagenPedagogiaSEP.png";
+import Contaduria from "images/ImagenContaduriaSEP.png";
+import Mercadotecnia from "images/ImagenMercaSEP.png";
+import AdminHosp from "images/ImagenMAdminHospitales.png";
+import Educa from "images/ImagenMEducacion.png";
 import logoCCM from "images/logotec.png";
 import proximamente from "images/proximamente.png";
 
@@ -78,7 +87,7 @@ export default ({
       },
       {
         imageSrc:
-          logoPoli,
+          prepaIpn,
         title: "Bachillerato IPN",
         content: "Bachillerato presencial IPN - Plantel Zaragoza",
         price: "Desde $2,000.00 MXN/mes",
@@ -86,7 +95,7 @@ export default ({
       },
       {
         imageSrc:
-          logoSep,
+          prepaSep,
         title: "Preparatoria SEP",
         content: "Preparatoria presencial SEP - Plantel Coapa",
         price: "Desde $2,000.00 MXN/mes",
@@ -94,6 +103,46 @@ export default ({
       }
     ],
     Licenciaturas: [
+      {
+        imageSrc:
+          Derecho,
+        title: "Derecho",
+        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/derecho-sep"
+      },
+      {
+        imageSrc:
+          Informatica,
+        title: "Informática",
+        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/informatica-sep"
+      },
+      {
+        imageSrc:
+          Pedagogia,
+        title: "Pedagogía",
+        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/pedagogia-sep"
+      },
+      {
+        imageSrc:
+          Contaduria,
+        title: "Contaduría Pública",
+        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/contaduria-sep"
+      },
+      {
+        imageSrc:
+          Mercadotecnia,
+        title: "Mercadotecnia",
+        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
+        price: "Desde $1,500.00 MXN/mes",
+        url: "/mercadotecnia-sep"
+      },
       {
         imageSrc:
           logoPoli,
@@ -118,51 +167,11 @@ export default ({
         price: "Desde $1,500.00 MXN/mes",
         url: "/admin-industrial-ipn"
       },
-      {
-        imageSrc:
-          logoSep,
-        title: "Informática",
-        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
-        price: "Desde $1,500.00 MXN/mes",
-        url: "/informatica-sep"
-      },
-      {
-        imageSrc:
-          logoSep,
-        title: "Contaduría Pública",
-        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
-        price: "Desde $1,500.00 MXN/mes",
-        url: "/contaduria-sep"
-      },
-      {
-        imageSrc:
-          logoSep,
-        title: "Pedagogía",
-        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
-        price: "Desde $1,500.00 MXN/mes",
-        url: "/pedagogia-sep"
-      },
-      {
-        imageSrc:
-          logoSep,
-        title: "Mercadotecnia",
-        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
-        price: "Desde $1,500.00 MXN/mes",
-        url: "/mercadotecnia-sep"
-      },
-      {
-        imageSrc:
-          logoSep,
-        title: "Derecho",
-        content: "Licenciatura con aval de la SEP - Plantel Zaragoza",
-        price: "Desde $1,500.00 MXN/mes",
-        url: "/derecho-sep"
-      },
     ],
     Maestrías: [
       {
         imageSrc:
-          logoSep,
+          AdminHosp,
         title: "Administración de Hospitales",
         content: "Maestría con aval de la SEP - Plantel Zaragoza",
         price: "Desde $2,400.00 MXN/mes",
@@ -170,7 +179,7 @@ export default ({
       },
       {
         imageSrc:
-          logoSep,
+          Educa,
         title: "Ciencias de la Educación",
         content: "Maestría con aval de la SEP - Plantel Zaragoza",
         price: "Desde $2,400.00 MXN/mes",

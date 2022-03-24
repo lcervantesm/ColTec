@@ -33,7 +33,7 @@ export default () => (
       testimonials={[
         {
           imageSrc:
-            "https://i.ibb.co/hf9VYF1/CTM-cancha.jpg",
+            "https://i.ibb.co/RNJY6wv/Imagen-Carrusel1.png",
           profileImageSrc:
             "https://i.ibb.co/bXQ02Q2/Rector-Wlester.png",
           quote:
@@ -43,9 +43,9 @@ export default () => (
         },
         {
           imageSrc:
-            "https://i.ibb.co/kXXncWY/Laboratoriocomputo.jpg",
+            "https://i.ibb.co/xG9bZnG/Imagen-Carrusel2.png",
           profileImageSrc:
-          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+          "https://i.ibb.co/44HSPSN/Perla-Bonilla.png",
           quote:
           "La nueva normalidad demanda programas a distancia de calidad. Por ello, contamos con el respaldo de la UNAM para impartir el B@UNAM 100% a distancia.",
           customerName: "Perla Bonilla",
@@ -64,7 +64,7 @@ export default () => (
         {
           question: "¿Dónde están ubicados?",
           answer:
-            "Asimismo, tenemos dos planteles ubicados al sur de la Ciudad de México en Iztapalapa y Coapa."
+            "Contamos con dos planteles: Plantel Villa Coapa, al Sur de la Ciudad de México y Plantel Zaragoza, al Oriente en la alcaldía Iztapalapa, CDMX. "
         },
         {
           question: "¿Cómo me inscribo?",
@@ -78,7 +78,7 @@ export default () => (
         },
         {
           question: "¿Cuentan con programas en línea?",
-          answer: "Tenemos en Bachillerato en Línea de la UNAM que nos permiten borrar barreras de tiempo y espacio para llegar a todo México."
+          answer: "Actualmente sólo contamos con el Bachillerato en línea de la UNAM."
         }
       ]}
       imageSrc={customerSupportIllustrationSrc}

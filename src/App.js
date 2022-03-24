@@ -112,7 +112,7 @@ import AboutUsPage from "pages/AboutUs.js";
 import ContactUsPage from "pages/ContactUs.js";
 // import BlogIndexPage from "pages/BlogIndex.js";
 // import TermsOfServicePage from "pages/TermsOfService.js";
-// import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
+import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 import Venues from "pages/Venues.js";
 
 
@@ -189,6 +189,9 @@ export default function App() {
         </Route>
         <Route path="/reglamentos">
           <Reglamento />
+        </Route>
+        <Route path="/aviso-de-privacidad">
+          <PrivacyPolicyPage />
         </Route>
         <Route path="/">
           <AgencyLandingPage />
