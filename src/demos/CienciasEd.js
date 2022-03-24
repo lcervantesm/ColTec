@@ -21,8 +21,8 @@ import Pricing from "components/pricing/TwoPlansWithDurationSwitcher.js";
 import GetStarted from "components/cta/GetStartedLight.js";
 import Footer from "components/footers/FiveColumnDark";
 import Contact from "components/forms/TwoColContactUsWithIllustrationFullForm";
-//import Pdf from "documents/PlanDeEstudiosBachIPN.pdf";
-import IpnImage from "images/_DSC1605.png";
+//import Pdf from "images/Administracion-industrial-IPN.jpeg";
+import SEPImage from "images/ciencias-ed.png";
 
 
 const HighlightedText = tw.span`text-primary-500`
@@ -31,24 +31,24 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>Bachillerato IPN</>}
-        imageSrc = {IpnImage}
-        description = "Contamos con el aval del IPN para impartir su programa de bachillerato. Podrás revalidar todo tu avance en caso de que entres posteriormente al IPN. *Solo en plantel Zaragoza."
+        heading={<>Maestría en Ciencias de la Educación</>}
+        imageSrc = {SEPImage}
+        description = "Mantente a la vanguardia con nuestros programas. Desarróllate con nosotros. *Solo en plantel Zaragoza."
         primaryButtonUrl = "/admisiones"
         primaryButtonText = "¡Inscríbete!"
-        features = {["Reconocimiento de Validez Oficial IPN", "Certificado IPN en 3 años.", "Becas disponibles"]}
+        features = {["100% Presencial","Docentes con amplia experiencia en el sector", "Horarios Flexibles", "Titulación por excelencia académica"]}
         testimonial = {{
-          quote: "Obtén un Título de Técnico y Cédula Profesional en Administración y continúa con tus estudios a nivel superior en cualquier institución del Sistema Educativo Nacional.",
+          quote: "Nuestro Modelo Educativo en Posgrado se basa en estrategias andragógicas apoyado de estudios de casos.",
         }} />
       <Features
         heading={<>Conoce el <HighlightedText>Programa</HighlightedText></>}
-        subheading={<>Bachillerato IPN</>}
-        description={"El Bachillerato del IPN es bivalente ya que, además de obtener formación técnica en la que obtienes Título de Técnico y Cédula Profesional, te permite continuar estudios a nivel superior en cualquier institución del Sistema Educativo Nacional."}
+        subheading={<>Maestría en Ciencias de la Educación</>}
+        description={"Programa dirigido a personal operativo y directivo del sector educativo y afines, que deseen iniciar o ampliar sus habilidades de Dirección, Administración de Recursos en Educación, Modelos de Planeación, Estrategias de Enseñanza Aprendizaje, Tecnologías Educativas, entre otras."}
         cards = {[
           {
             imageSrc: ShieldIconImage,
-            title: "Validez Oficial IPN",
-            description: "RVOES - IPN: Administración - A-RVOE-DG-NMS/013/01 | Informática - A-RVOE-DG-NMS/014/01 | Contaduría - A-RVOE-DG-NMS/015/01 | Comercio - A-RVOE-DG-NMS/016/01"
+            title: "Validez Oficial SEP",
+            description: "RVOE - SEP"
           },
           {
             imageSrc: SupportIconImage,
@@ -58,18 +58,18 @@ export default () => {
           {
             imageSrc: CustomizeIconImage,
             title: "Inicio de clases",
-            description: "Agosto 2022"
+            description: "Enero 2022 / Mayo 2022 / Septiembre 2022"
           },
           {
             imageSrc: ReliableIconImage,
             title: "Plan de Estudios",
-            link: "https://i.ibb.co/1J8PPJT/Brochure-bachillerato-ipn-copia.jpg",
-            description: "Conoce tu plan de estudios. Da clic aquí."
+            link: "https://i.ibb.co/K5rCLvk/CIENCIAS-DE-LA-EDUCACIO-N-OK.jpg",
+            description: "Contáctanos para conocer tu plan de estudios. Da clic aquí."
           },
           {
             imageSrc: FastIconImage,
             title: "Duración",
-            description: "3 años."
+            description: "2 años"
           },
           {
             imageSrc: SimpleIconImage,
@@ -86,14 +86,14 @@ export default () => {
         secondaryLinkText = "Contáctanos"
         secondaryLinkUrl = "/admisiones"/>
       <MainFeature
-        heading={<>Respaldo del<HighlightedText> Politécnico Nacional</HighlightedText></>}
+        heading={<>Respaldo de la<HighlightedText> SEP</HighlightedText></>}
         subheading={"Ventajas"}
-        description={"La formación que reciben, les permite mostrarse como técnicos competentes y comprometidos con su trabajo, con actitud de servicio fundamentada en valores cívicos y éticos altamente competitivos, capaces de interactuar en un entorno complejo y exigido, mostrando un alto desempeño y profesionalismo en toda actividad productiva que les hará destacar, eficientemente, en organizaciones nacionales e internacionales."}
+        description={"El Reconocimiento de Validez Oficial de Estudios (RVOE) es el acto de la autoridad educativa en virtud del cual se determina incorporar un plan y programas de estudio que un particular imparte, o pretende impartir, al sistema educativo nacional."}
         features={[
           {
             Icon: BriefcaseIcon,
-            title: "Salidas Técnicas",
-            description: "Bachillerato Tecnológico en: Administración, Informática, Contaduría y Comercio Internacional.",
+            title: "Aprenderás a:",
+            description: "Planear, organizar, dirigir y controlar las actividades en el campo educativo.",
             iconContainerCss: tw`bg-teal-300 text-teal-800`
           },
           {

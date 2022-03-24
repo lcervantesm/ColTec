@@ -95,7 +95,8 @@ export default () => {
             durationText: "2 años",
             locationText: "CDMX",
             cta: "Inscríbete",
-            text: "Dirigido a personal operativo y directivo en las Ciencias de la Salud, que deseen iniciar o ampliar sus habilidades de Dirección, Gestión de Recursos Humanos, Toma de Decisión, Manejo de Indicadores, Visión de un Marco Legal, Control de Calidad y Certificación, entre otras."
+            text: "Dirigido a personal operativo y directivo en las Ciencias de la Salud, que deseen iniciar o ampliar sus habilidades de Dirección, Gestión de Recursos Humanos, Toma de Decisión, Manejo de Indicadores, Visión de un Marco Legal, Control de Calidad y Certificación, entre otras.",
+            link: "/admin-hosp-sep"
           },
           {
             imageSrc:
@@ -107,7 +108,8 @@ export default () => {
             durationText: "2 años",
             locationText: "CDMX",
             cta: "Inscríbete",
-            text: "Dirigido a personal operativo y directivo del sector educativo y afines, que deseen iniciar o ampliar sus habilidades de Dirección, Administración de Recursos en Educación, Modelos de Planeación, Estrategias de Enseñanza Aprendizaje, Tecnologías Educativas, entre otras."
+            text: "Dirigido a personal operativo y directivo del sector educativo y afines, que deseen iniciar o ampliar sus habilidades de Dirección, Administración de Recursos en Educación, Modelos de Planeación, Estrategias de Enseñanza Aprendizaje, Tecnologías Educativas, entre otras.",
+            link: "/admin-hosp-sep"
           }
         ]}
       />

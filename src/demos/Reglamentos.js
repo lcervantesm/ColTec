@@ -40,7 +40,7 @@ export default () => {
           {
             imageSrc: ReliableIconImage,
             title: "Reglamento General",
-            link: "https://drive.google.com/file/d/1lViR0Q47sUu3jRGQCSGh6_ee7oXXZXK7/view?usp=sharing",
+            link: "https://i.ibb.co/sHjypfS/Reglamento.jpg",
             description: "Consulta aquí."
           }
         ]}

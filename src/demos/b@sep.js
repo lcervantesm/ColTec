@@ -59,7 +59,7 @@ export default () => {
           {
             imageSrc: ReliableIconImage,
             title: "Plan de Estudios",
-            link: "http://www.sems.gob.mx/work/models/sems/Resource/12491/4/images/libro.pdf",
+            link: "https://i.ibb.co/1J8PPJT/Brochure-bachillerato-ipn-copia.jpg",
             description: "Conoce tu plan de estudios. Da clic aquí."
           },
           {

@@ -71,6 +71,7 @@ export default ({
       durationText: "7 Days Tour",
       locationText: "Africa",
       cta: "",
+      link: "https://www.tecdemexico.edu.mx"
     },
     {
       imageSrc:
@@ -82,7 +83,8 @@ export default ({
       trendingText: "Trending",
       durationText: "15 Days Tour",
       locationText: "Australia",
-      cta: ""
+      cta: "",
+      link: "https://www.tecdemexico.edu.mx"
     }
   ]
 }) => {
@@ -128,7 +130,7 @@ export default ({
                       <LocationIcon /> {card.locationText}
                     </CardMetaFeature>
                   </CardMeta>
-                  <CardAction>{card.cta}</CardAction>
+                  <CardAction><a href={card.link}></a>{card.cta}</CardAction>{/*eslint-disable-line*/}
                 </CardText>
               </Card>
             </CardColumn>

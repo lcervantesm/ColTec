@@ -31,24 +31,24 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>Lic. en Mercadotecnia SEP</>}
+        heading={<>Maestría en Administración de Hospitales</>}
         imageSrc = {SEPImage}
         description = "Mantente a la vanguardia con nuestros programas. Desarróllate con nosotros. *Solo en plantel Zaragoza."
         primaryButtonUrl = "/admisiones"
         primaryButtonText = "¡Inscríbete!"
-        features = {["Reconocimiento de Validez Oficial SEP", "Título y cédula profesional en 2 años.", "Becas disponibles"]}
+        features = {["100% Presencial","Docentes con amplia experiencia en el sector", "Horarios Flexibles", "Titulación por excelencia académica"]}
         testimonial = {{
-          quote: "Queremos formar profesionales expertos en dirigir, asesorar y ejecutar todas aquellas actividades que están directamente relacionadas con las áreas de mercadotecnia, ventas y publicidad, permitiendo la optimización de recursos y elementos que intervienen en el proceso de comercialización y distribución de los bienes y servicios que se producen dentro de una empresa. Su desempeño profesional facilita la relación de los productores así como de los consumidores de productos y servicios.",
+          quote: "Nuestro Modelo Educativo en Posgrado se basa en estrategias andragógicas apoyado de estudios de casos.",
         }} />
       <Features
         heading={<>Conoce el <HighlightedText>Programa</HighlightedText></>}
-        subheading={<>Lic. en Mercadotecnia</>}
-        description={"El Licenciado en Mercadotecnia es un profesional interdisciplinario que interviene en la publicidad de productos, bienes y servicios de las empresas, poniéndolos al alcance del consumidor."}
+        subheading={<>Maestría en Administración de Hospitales</>}
+        description={"Programa dirigido a personal operativo y directivo en las Ciencias de la Salud y afines, que deseen iniciar o ampliar sus habilidades de Dirección, Gestión de Recursos Humanos, Toma de Decisión, Manejo de Indicadores, Visión de un Marco Legal, Programas de Calidad y Certificación, entre otras."}
         cards = {[
           {
             imageSrc: ShieldIconImage,
             title: "Validez Oficial SEP",
-            description: "RVOE - SEP: RVOE-20080904"
+            description: "RVOE - SEP"
           },
           {
             imageSrc: SupportIconImage,
@@ -57,19 +57,19 @@ export default () => {
           },
           {
             imageSrc: CustomizeIconImage,
-            title: "Inicio de docencia",
+            title: "Inicio de clases",
             description: "Enero 2022 / Mayo 2022 / Septiembre 2022"
           },
           {
             imageSrc: ReliableIconImage,
             title: "Plan de Estudios",
-            link: "/admisiones",
+            link: "https://i.ibb.co/TLjH6wB/BROCHURE-MTRIA-ADMON-HOSP-copia.jpg",
             description: "Contáctanos para conocer tu plan de estudios. Da clic aquí."
           },
           {
             imageSrc: FastIconImage,
             title: "Duración",
-            description: "4 años"
+            description: "2 años"
           },
           {
             imageSrc: SimpleIconImage,
@@ -93,7 +93,7 @@ export default () => {
           {
             Icon: BriefcaseIcon,
             title: "Aprenderás a:",
-            description: "Planear, organizar, dirigir y controlar las actividades en el campo comercial de toda organización pública o privada, evaluando la factibilidad de los proyectos; Administrar las ventas, dese su inicio con el pedido, hasta la entrega al cliente; Planear y desarrollar productos desde su determinación mercadológica, hasta su lanzamiento e introducción al mercado, utilizando técnicas innovadoras de información y comunicaciones; Investigar las tendencias del mercado con una visión integradora nacional e internacional desde su planeación, organización, trabajo de campo, representación de resultados y toma de decisiones; Realizar acciones de publicidad y promoción, así como de apoyo a las ventas desde la concepción estratégica y orientada mercadológica, hasta la realización mis",
+            description: "Planear, organizar, dirigir y controlar las actividades en el campo de los hospitales.",
             iconContainerCss: tw`bg-teal-300 text-teal-800`
           },
           {

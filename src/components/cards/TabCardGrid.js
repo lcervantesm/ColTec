@@ -175,7 +175,7 @@ export default ({
         title: "Administración de Hospitales",
         content: "Maestría con aval de la SEP - Plantel Zaragoza",
         price: "Desde $2,400.00 MXN/mes",
-        url: "/admisiones"
+        url: "/admin-hosp-sep"
       },
       {
         imageSrc:
@@ -183,7 +183,7 @@ export default ({
         title: "Ciencias de la Educación",
         content: "Maestría con aval de la SEP - Plantel Zaragoza",
         price: "Desde $2,400.00 MXN/mes",
-        url: "/admisiones"
+        url: "/ciencias-ed-sep"
       },
     ],
     Diplomados: [

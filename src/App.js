@@ -103,6 +103,8 @@ import Derecho from "demos/Derecho";
 import Pedagogia from "demos/Pedagogia";
 import Reglamento from "demos/Reglamentos";
 import Maestrias from "demos/Maestrias";
+import AdminHosp from "demos/AdminHosp";
+import CienciasEd from "demos/CienciasEd";
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 /* Inner Pages */
@@ -196,6 +198,12 @@ export default function App() {
         </Route>
         <Route path="/maestrias">
           <Maestrias />
+        </Route>
+        <Route path="/admin-hosp-sep">
+          <AdminHosp />
+        </Route>
+        <Route path="/ciencias-ed-sep">
+          <CienciasEd />
         </Route>
         <Route path="/">
           <AgencyLandingPage />
