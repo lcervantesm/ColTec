@@ -103,7 +103,7 @@ export default () => {
                 <Link href="oferta">Licenciatura</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="oferta">Maestría</Link>
+                <Link href="maestrias">Maestría</Link>
               </LinkListItem>
               <LinkListItem>
                 <Link href="oferta">Cursos</Link>

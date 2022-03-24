@@ -81,7 +81,7 @@ export default () => {
     { imageSrc: iconoMaestria,
       title: "Maestrías",
       description: "Contamos con dos programas de maestría para ti. Pronto habrá cada vez más programas.",
-      href: "/oferta"
+      href: "/maestrías"
     },
     { imageSrc: iconoEduC,
       title: "Educación Continua",

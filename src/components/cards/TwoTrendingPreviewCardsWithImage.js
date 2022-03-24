@@ -55,17 +55,22 @@ const CardMetaFeature = styled.div`
 `;
 const CardAction = tw(PrimaryButtonBase)`w-full mt-8`;
 
-export default () => {
-  const cards = [
+export default ({
+  headingTitle = "Trending Tours",
+  headingDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.",
+  primaryLinkText = "View all tours",
+  cards = [
     {
       imageSrc:
         "https://images.unsplash.com/photo-1553194587-b010d08c6c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
       type: "Beachfront",
       pricePerDay: "$99",
       title: "A Trip to the Bahamas and the Carribean Ocean",
+      text: "Default",
       trendingText: "Trending",
       durationText: "7 Days Tour",
-      locationText: "Africa"
+      locationText: "Africa",
+      cta: "",
     },
     {
       imageSrc:
@@ -73,24 +78,27 @@ export default () => {
       type: "Cruise",
       pricePerDay: "$169",
       title: "Cruise to the Mariana Trench and the Phillipines",
+      text: "Default",
       trendingText: "Trending",
       durationText: "15 Days Tour",
-      locationText: "Australia"
+      locationText: "Australia",
+      cta: ""
     }
-  ];
+  ]
+}) => {
+
   return (
     <Container>
       <Content>
         <ThreeColumn>
           <HeadingColumn>
             <HeadingInfoContainer>
-              <HeadingTitle>Trending Tours</HeadingTitle>
+              <HeadingTitle>{headingTitle}</HeadingTitle>
               <HeadingDescription>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua enim ad minim veniam.
+                {headingDescription}
               </HeadingDescription>
               <PrimaryLink>
-                View All Tours <ArrowRightIcon />
+                {primaryLinkText} <ArrowRightIcon />
               </PrimaryLink>
             </HeadingInfoContainer>
           </HeadingColumn>
@@ -102,10 +110,13 @@ export default () => {
                   <CardHeader>
                     <CardType>{card.type}</CardType>
                     <CardPrice>
-                      <CardPriceAmount>{card.pricePerDay}</CardPriceAmount> per day
+                      <CardPriceAmount>{card.pricePerDay}</CardPriceAmount> mensual
                     </CardPrice>
                   </CardHeader>
                   <CardTitle>{card.title}</CardTitle>
+                  <CardText>
+                    {card.text}
+                  </CardText>
                   <CardMeta>
                     <CardMetaFeature>
                       <TrendingIcon /> {card.trendingText}
@@ -117,7 +128,7 @@ export default () => {
                       <LocationIcon /> {card.locationText}
                     </CardMetaFeature>
                   </CardMeta>
-                  <CardAction>Book Now</CardAction>
+                  <CardAction>{card.cta}</CardAction>
                 </CardText>
               </Card>
             </CardColumn>
