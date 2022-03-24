@@ -53,7 +53,7 @@ export default () => {
           },
           {
             imageSrc: CustomizeIconImage,
-            title: "Inicio de docencia",
+            title: "Inicio de clases",
             description: "Agosto 2022."
           },
           {

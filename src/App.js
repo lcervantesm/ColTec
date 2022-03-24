@@ -105,6 +105,9 @@ import Reglamento from "demos/Reglamentos";
 import Maestrias from "demos/Maestrias";
 import AdminHosp from "demos/AdminHosp";
 import CienciasEd from "demos/CienciasEd";
+import Bachilleratos from "demos/Bachilleratos";
+import Licenciaturas from "demos/Licenciaturas";
+import Cursos from "demos/Cursos";
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 /* Inner Pages */
@@ -204,6 +207,15 @@ export default function App() {
         </Route>
         <Route path="/ciencias-ed-sep">
           <CienciasEd />
+        </Route>
+        <Route path="/bachilleratos">
+          <Bachilleratos />
+        </Route>
+        <Route path="/licenciaturas">
+          <Licenciaturas />
+        </Route>
+        <Route path="/cursos">
+          <Cursos />
         </Route>
         <Route path="/">
           <AgencyLandingPage />

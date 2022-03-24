@@ -38,7 +38,7 @@ const PrimaryButton = tw(PrimaryButtonBase)`mt-8 md:mt-10 text-sm inline-block m
 
 const Card = styled.div`
   ${tw`flex flex-col mx-auto max-w-xs items-center px-6 py-10 border-2 border-dashed border-primary-500 rounded-lg mt-12`}
-  
+
 
   .textContainer {
     ${tw`mt-6 text-center`}
@@ -71,12 +71,12 @@ export default () => {
       imageSrc: iconoBach,
       title: "Bachilleratos",
       description: "Contamos con tres programas de bachillerato: SEP, UNAM e IPN, la elección es tuya.",
-      href: "/oferta"
+      href: "/bachilleratos"
     },
     { imageSrc: iconoLic,
       title: "Licenciaturas",
       description: "Impulsa tu carrerra con una de nuestras Licenciaturas avaladas por la SEP y el IPN.",
-      href: "/oferta"
+      href: "/licenciaturas"
     },
     { imageSrc: iconoMaestria,
       title: "Maestrías",
@@ -85,17 +85,17 @@ export default () => {
     },
     { imageSrc: iconoEduC,
       title: "Educación Continua",
-      href: "/oferta",
+      href: "/admisiones",
       description: "Ofertamos 5 diplomados para especializarte en las tecnologías emergentes."
     },
     { imageSrc: iconoSuperior,
       title: "Cursos Ingreso IPN/UNAM",
-      href: "/oferta",
+      href: "/cursos",
       description: "Destaca en el examen de selección e ingresa a la universidad de tus sueños."
     },
     { imageSrc: iconoComipems,
       title: "Curso Ingreso COMIPEMS",
-      href: "/oferta",
+      href: "/cursos",
       description: "¡Asegura tu primera opción!"
     }
   ];

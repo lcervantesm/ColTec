@@ -97,16 +97,16 @@ export default () => {
             <ColumnHeading className="orange-text">Programas</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="oferta">Bachillerato</Link>
+                <Link href="bachilleratos">Bachillerato</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="oferta">Licenciatura</Link>
+                <Link href="licenciaturas">Licenciatura</Link>
               </LinkListItem>
               <LinkListItem>
                 <Link href="maestrias">Maestría</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="oferta">Cursos</Link>
+                <Link href="cursos">Cursos</Link>
               </LinkListItem>
             </LinkList>
           </Column>
